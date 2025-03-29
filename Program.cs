@@ -49,7 +49,7 @@ Console.Write("| ");
 
 Console.ForegroundColor = ConsoleColor.White;
 Console.Write("Atende pela alcunha de: ");
-Console.Write(especie.Trim().ToUpper().PadLeft(31, '.').Substring(0, 31));
+Console.Write(nome.Trim().ToUpper().PadLeft(31, '.').Substring(0, 31));
 
 Console.ForegroundColor = ConsoleColor.DarkBlue;
 Console.WriteLine(" |");
